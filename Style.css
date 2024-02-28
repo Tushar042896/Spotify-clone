@@ -1,9 +1,9 @@
-/* body{
+body{
     background-color: black;
     color: white;
-} */
+}
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -16,16 +16,57 @@
 .right {
     width: 75vw;
 }
+
 /* .fa-solid.fa-house{
     color: aqua;
 } */
-.home ul li{
+.home ul li {
     /* width: 34px; */
     list-style: none;
     display: flex;
     gap: 10px;
     padding-top: 14px;
+    font-weight: bold;
 }
-.home{
-    padding: 10px;
+
+.heading {
+
+    display: flex;
+    gap: 10px;
+    padding-top: 14px;
+    font-weight: bold;
+    align-items: center;
+
+
+
+}
+
+.library {
+    min-height: 80vh;
+    position: relative;
+}
+
+.footer {
+    display: flex;
+    font-size: 10px;
+    gap: 10px;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.footer a {
+    color: gray;
+}
+.right{
+    margin-top: 16px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+    
+}
+.header> *{
+    padding: 30px;
 }
