@@ -1,0 +1,31 @@
+/* body{
+    background-color: black;
+    color: white;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    width: 25vw;
+    padding: 10px;
+}
+
+.right {
+    width: 75vw;
+}
+/* .fa-solid.fa-house{
+    color: aqua;
+} */
+.home ul li{
+    /* width: 34px; */
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding-top: 14px;
+}
+.home{
+    padding: 10px;
+}
